@@ -17,23 +17,23 @@ html{
 }
 
 .c1{
-    border-left: 20px solid #0F7542;
+    border-left: 20px solid #335175;
 }
 
 .c2{
-    border-left: 20px solid #3B088B;
+    border-left: 20px solid #335675;
 }
 
 .c3{
-    border-left: 20px solid #8B1108;
+    border-left: 20px solid #335d75;
 }
 
 .c4{
-    border-left: 20px solid #088B6A;
+    border-left: 20px solid #336275;
 }
 
 .c5{
-    border-left: 20px solid #8B085F;
+    border-left: 20px solid #336375;
 }
 
 .card header{
@@ -61,10 +61,10 @@ header h8{
 }
 
 .important{
-    border: 1px solid rgba(34, 34, 34, 0.24);
-    border-left: 10px solid #e03;
+   // border: 1px solid rgba(34, 34, 34, 0.24);
+   // border-left: 10px solid #e03;
     padding: 5px 8px;
-    list-style-type: none;
+   // list-style-type: none;
     width: fit-content;
 }
 
