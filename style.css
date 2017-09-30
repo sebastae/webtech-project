@@ -45,7 +45,7 @@ section {
 
 #center_footer h3 {
 	margin: 0px;
-	font-size: 90%;
+	font-size: 12pt;
 	font-weight: 100;
 }
 
@@ -86,7 +86,7 @@ p {
 } 
 
 p , ul , ol {
-		font-size: 90%;
+		font-size: 11pt;
 }
 
 ul , ol {
