@@ -1,2 +1,3 @@
-#Changes
-####Write changes made to plans here
+# Changes
+
+#### Document changes made to plans here
