@@ -22,6 +22,10 @@ html{
 	margin: 10px;
 }
 
+.border-side{
+    border-left: 20px solid #335175;
+}
+
 .c1{
     border-left: 20px solid #335175;
 }
@@ -81,3 +85,21 @@ footer{
 	font-size: 8pt;
 }
 
+.content{
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.divider{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.43);
+    height: 1px;
+    margin: 10px auto;
+}
+
+.divider.big-gap{
+    margin: 50px auto;
+}
