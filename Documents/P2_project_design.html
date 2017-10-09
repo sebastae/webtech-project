@@ -25,12 +25,12 @@
                     </h3>
                 </header>
                 <div class="content">
-                    <p>
-                        <b>
-                            Client:
-                        </b>
-                        Frøken
-                    </p>
+				  <ul class="important">
+					  <li><b>Client name:</b> Frøken</li>
+					  <li><b>Website Name:</b> Frøken</li>
+					  <li><b>Contact person:</b> Fictional</li>
+					  <li><b>Type of company:</b> Seed distributor</li>
+				  </ul>
                 </div>
             </section>
 
@@ -41,24 +41,15 @@
                     </h3>
                 </header>
                 <div class="content">
-                    <h4>
-                        Purpose
-                    </h4>
-                    <p>
-                        [ Write stuff here ]
-                    </p>
-                    <h4>
-                        Goals
-                    </h4>
-                    <p>
-                        [ Write stuff here ]
-                    </p>
-                    <h4>
-                        Audience
-                    </h4>
-                    <p>
-                        [ Write stuff here ]
-                    </p>
+                    <h4>Purpose</h4>
+                    <p>The purpose of the site is to provide information about different types of seeds that the distributor offers, and the flowers that grow out of these seeds. It´s also supposed to be a mean to provide people whit the information they need in their daily business with Frøken.</p>
+
+					<h4>Goals</h4>
+                    <p>Our goal is to peak the users interest in the products Frøken provides, through a sleek and effective designed website. </p>
+
+					<h4>Audience</h4>
+                    <p>The website has two main targets: <br>The first target is the partners and (potentials) clients using Frøken in their daily business. As a source of information and inspiration for the flowers themselves and not at least the information they need in their correspondence with Frøken.</p>
+					<p>The second target is people looking for good information and/or inspiration when it comes to the flowers themselves. They might try to identify a flower, or wonders how to treat it, so it grows.</p>
                 </div>
             </section>
 
@@ -70,21 +61,28 @@
                 </header>
 
                 <div class="content">
+					        <p>
+                    Every page will have the same navbar, which will point to the main pages (Home, Gallery/Flora, About and Contact).
+                    Besides that, the home page will feature three articles, and the Flora page will contain all articles.
+                  </p>
+        					<p>
+        						One of the requirements set by Frøken is that the site should be fast and easy to navigate. To achieve this the page is given a structure making it possible to reach any page with a maximum of 3 clicks.
+        					</p>
                     <img src="img/sitechart.png" alt="Sitechart" />
                     <div class="divider"></div>
-                    <p>
-                        Every page will have the same navbar, which will point to the main pages (Home, Gallery/Flora, About and Contact).
-                        Besides that, the home page will feature three articles, and the Flora page will contain all articles.
-                    </p>
+
                 </div>
             </section>
-
+			<section>
             <section class="card border-side">
                 <header>
                     <h3>
                         Page Layout and Appearance
                     </h3>
                 </header>
+				<p>
+					The idea behind the visuals of the design are founded in keeping things simple and clean. This will lend to the goal of the client, which is to provide easy access to information to potential clients and buyers, as well as the casual user.
+				</p>
                 <p>
                   The decisions we made for the site layout were based on an idea of a modern, garden-themed webpage. Therefore, the background color is a modern white (#ffffff). Following the garden-theme we will use green colors to promote exactly that feeling. Links (not those in the navbar) and buttons will be colored in <span class="green_text">green</span> (#25CE13). We want to make the page easy on the eyes, that's why we will reduce the contrasts between content, and text will hence be in <span class="lightgray_text">light gray</span> (#95989A) for lighter text, and <span class="darker_gray_text">darker gray</span> (#444444) for darker text.
                 </p>
@@ -94,15 +92,16 @@
                 <p>
                   As can be seen on the mockup, we will have a slideshow of relevant images with the company's logo in the front.
                 </p>
+
             </section>
 
-            <section>
+            <!--
                 <header>
                     <h2>
                         Content
                     </h2>
                 </header>
-
+			-->
                 <section class="card border-side">
                     <header>
                         <h3>
@@ -110,12 +109,12 @@
                         </h3>
                     </header>
                     <div class="content">
+                      <p>
+                        The home page is the first page you get to when you visit the site. At first you hit the logo, a big background image and the main menu. But if you hit the down-arrow you´ll get a brief overview of news or featured content, where the company will have an opportunity to showcase its latest news and highlights.
+                      </p>
                         <img src="./mockups/home_landing.png" alt="Home page, hero / landing">
-                        <img src="./mockups/home_main.png" alt="Home page, main / content">
                         <div class="divider"></div>
-                        <p>
-                            Page description here
-                        </p>
+                        <img src="./mockups/home_main.png" alt="Home page, main / content">
                     </div>
                 </section>
 
@@ -125,12 +124,18 @@
                             Gallery / Flora
                         </h3>
                     </header>
+                      <p>
+                          The card based structure will give the user a good overview over navigation options without flooding the screen with text based information. The pictures on the cards will be a medium through which the user visually decide which flower they want further information on. By using a simple white background, the cards become a larger contrast, and draws the attention of the user.
+                      </p>
+          						<p>
+          							As well as the photos, the cards will also contain a short text with information about the seeds/flowers. When a card is clicked upon, it will take the user to a separate page where one can see the extended information.
+          						</p>
                     <div class="content">
+                      <p>
+                          This page shows all of the different flowers/seeds the company has for sale. The cards will as previously stated, be generated through JSON. This makes for a dynamic, responsive webpage. The amount of seeds posted here will be a reasonable amount, so that the page won't be really long. The images for the seed previews will be smaller versions of the ones on the actual pages, in order to reduce loading times.
+                      </p>
                         <img src="./mockups/gallery.png" alt="Gallery / Flora">
                         <div class="divider"></div>
-                        <p>
-                            Page description here
-                        </p>
                     </div>
                 </section>
 
@@ -140,12 +145,12 @@
                             About
                         </h3>
                     </header>
+            					<p>
+            						Frøken has a proud legacy, and wants somewhere to show off who they are, and how they got there. This will be the “About” page. It will contain a brief history of the company. Its key achievements and the companies vision.
+            					</p>
                     <div class="content">
                         <img src="./mockups/about.png" alt="About page">
                         <div class="divider"></div>
-                        <p>
-                            Page description here
-                        </p>
                     </div>
                 </section>
 
@@ -155,12 +160,12 @@
                             Contact
                         </h3>
                     </header>
+            					<p>
+            						This is where users can initiate “first contact” with Frøken. When someone click the contact page they´ll get a page whit the basic contact information for Frøken. There will also be a form where you can leave your contact information and enquiry, so the Frøken staff can get back to you as fast as possible.
+            					</p>
                     <div class="content">
                         <img src="./mockups/contact.png" alt="Contact form / contact info">
                         <div class="divider"></div>
-                        <p>
-                            Page description here
-                        </p>
                     </div>
                 </section>
 
@@ -176,6 +181,7 @@
                 <div class="content">
                   <p>
                     We will use 4 different JavaScript scripts on our page. Those are:
+				          </p>
                       <ul>
                         <li>
                           The specific content of the flower info pages are retrieved by using JSON, which in turn makes JSON a large part of out project.
@@ -190,7 +196,6 @@
                           We will add functionality so the user can sort the cards in the desired order.
                         </li>
                       </ul>
-                  </p>
                 </div>
             </section>
 
