@@ -17,7 +17,7 @@ html{
 }
 
 #logo {
-	width: 230px; 
+	width: 230px;
 	float: right;
 	margin: 10px;
 }
@@ -102,4 +102,8 @@ img {
 
 .divider.big-gap{
     margin: 50px auto;
+}
+
+ul {
+  text-align: left;
 }
