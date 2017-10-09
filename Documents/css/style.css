@@ -17,7 +17,7 @@ html{
 }
 
 #logo {
-	width: 230px; 
+	width: 230px;
 	float: right;
 	margin: 10px;
 }
@@ -102,4 +102,16 @@ img {
 
 .divider.big-gap{
     margin: 50px auto;
+}
+
+.green_text {
+  color: #25CE13;
+}
+
+.lightgray_text {
+  color: #95989A;
+}
+
+.darker_gray_text {
+  color: #444444;
 }
