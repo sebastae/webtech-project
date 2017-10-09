@@ -92,7 +92,10 @@
                 <p>
                   As can be seen on the mockup, we will have a slideshow of relevant images with the company's logo in the front.
                 </p>
-                <img src="./mockups/common.png" alt="General styling">
+<<<<<<< HEAD
+                <img src="./mockups/common.png" alt="General appearance">
+=======
+>>>>>>> 7a94b1706b89265b37e245c8836a9376ee24c794
             </section>
 
             <!--
@@ -180,11 +183,12 @@
                         </h3>
                     </header>
                     <p>
-                        The article pages will have a header image to show what flower the article is talking about, and also to add some color to the page.
-                        The text and images in the article will be alligned to three "columns".
+                        The individual article pages will be accessed from the cards on the frontpage and in the gallery.
+                        Each article will have a header image to show what kind of flower the seed will produce, while also adding color to the page.
+                        The text will span three "columns", and images in the article will span either one, two, or three of these.
                     </p>
                     <div class="content">
-                        <img src="./mockups/article.png" alt="Article page">
+                        <img src="./mockups/article.png" alt="Article ">
                     </div>
                 </section>
 
@@ -224,44 +228,9 @@
                         Plan
                     </h3>
                 </header>
-				<h4>Overview of what needs to be done and when.</h4>
-				<table>
-				  <tr>
-					<th>WHAT</th>
-					<th>WHO</th>
-					<th>WHEN</th>
-				  </tr>
-				  <tr>
-					<td>JSON backend</td>
-					<td>Sebastian / Andreas</td>
-					<td>10 November 2017</td>
-				  </tr>
-				  <tr>
-					<td>Slideshow</td>
-					<td>Andreas</td>
-					<td>10 November 2017</td>
-				  </tr>
-				  <tr>
-					<td>Form validation</td>
-					<td>Øystein / Adrian</td>
-					<td>10 November 2017</td>
-				  </tr>
-				  <tr>
-					<td>Styling</td>
-					<td>Sebastian / Toralf</td>
-					<td>23 October 2017</td>
-				  </tr>
-				  <tr>
-					<td>HTML structure</td>
-					<td>Toralf</td>
-					<td>23 October 2017</td>
-				  </tr>
-				  <tr>
-					<td>Article writing / research</td>
-					<td>Øystein / Adrian</td>
-					<td>3 November 2017</td>
-				  </tr>
-				</table>
+                <div class="content">
+
+                </div>
             </section>
 
         </div>
