@@ -17,9 +17,13 @@ html{
 }
 
 #logo {
-	width: 230px; 
+	width: 230px;
 	float: right;
 	margin: 10px;
+}
+
+.border-side{
+    border-left: 20px solid #0d5e01;
 }
 
 .c1{
@@ -81,3 +85,52 @@ footer{
 	font-size: 8pt;
 }
 
+.content{
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.divider{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.43);
+    height: 1px;
+    margin: 10px auto;
+}
+
+.divider.big-gap{
+    margin: 50px auto;
+}
+
+.green_text {
+  color: #25CE13;
+}
+
+.lightgray_text {
+  color: #95989A;
+}
+
+.darker_gray_text {
+  color: #444444;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0d5e01;
+  color: #f7f7f7;
+}
+
+tr:nth-child(even) {
+  background-color: #ededed;
+}
+
+table, th, td {
+    border: 1px solid #444444;
+    padding: 5px;
+}
