@@ -126,8 +126,8 @@ th {
   color: #f7f7f7;
 }
 
-tr:hover {
-  background-color: lightgray;
+tr:nth-child(even) {
+  background-color: #ededed;
 }
 
 table, th, td {
