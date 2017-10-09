@@ -1,4 +1,4 @@
-html{ 
+html{
     background: #f7f7f7;
 }
 
@@ -114,4 +114,22 @@ img {
 
 .darker_gray_text {
   color: #444444;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0d5e01;
+  color: #f7f7f7;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+table, th, td {
+    border: 1px solid #444444;
 }
