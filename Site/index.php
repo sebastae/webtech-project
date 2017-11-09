@@ -20,7 +20,7 @@
             <footer class="main_footer">
                 <p>&copy; SØTAA - Group 37, 2017</p>
             </footer>
-        
+        <script src="JS/jsonload.js"></script>
     </body>
 </html>
 

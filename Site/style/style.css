@@ -199,3 +199,6 @@ main aside img {
 
 }
 
+.loaded-article{
+    display: inline-block;
+}
