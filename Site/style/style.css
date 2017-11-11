@@ -16,6 +16,10 @@ h1 {
     text-transform: uppercase;
 }
 
+:hover {
+    transition: 0.15s;
+}
+
 /* -------------------- Header -------------------- */
 
 header {
@@ -59,7 +63,16 @@ header {
     height: 25px;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.1s;
 }
+
+.head_bg a.scroll_to_menu_button:hover {
+    -ms-transform: translate(0px, 5px); /* IE 9 */
+    -webkit-transform: translate(0px, 5px); /* Safari */
+    transform: translate(0px, 5px);
+    transition: 0.2s;
+}
+
 
 .head_bg a.scroll_to_menu_button span {
     background-color: rgba(0, 0, 0, 0);
@@ -69,6 +82,31 @@ header {
     font-size: 12px;
     border: none;
     color: #fff;
+}
+
+.arrow_left, .arrow_right {
+    width: 10px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.arrow_left {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+    position: absolute;
+    left: 5px;
+    top: 12px;
+}
+.arrow_right {
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari */
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 5px;
+    top: 12px;
 }
 
         /* ---------- main menu ---------- */
@@ -190,8 +228,9 @@ main aside img {
     height: 50px;
     width: 100%;
     background-color: #fff;
-    box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.096);
 }
+
 
 .main_footer p {
     max-width: 960px;
@@ -199,7 +238,6 @@ main aside img {
     padding: 13pt;
     font-size: 10pt;
     color: #95989A; 
-
 }
 
 .loaded-article{

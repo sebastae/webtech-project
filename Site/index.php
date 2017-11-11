@@ -10,7 +10,8 @@
             <img src="img/head_1920.jpg" class="head_bg_img" alt="">
             <img src="img/logo_wa.svg" class="head_bg_logo" href="?pg=page_front" alt="Frøken">
             <a class="scroll_to_menu_button" href="#main_navbar">
-                <span>&#x25BC;</span>
+                <div class="arrow_left"></div>
+                <div class="arrow_right"></div>
             </a>
         </section>
         <?php include 'navbar.php'; ?>
