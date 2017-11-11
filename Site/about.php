@@ -29,7 +29,7 @@
             </p>
         </article>
         <aside>
-            <img src="img/annie-spratt-42459.jpg" alt="About us">
+            <img src="img/matthew-smith-5935.jpg" alt="About us">
             <p>
                 Mauris et maximus mi, id cursus velit. Nam non orci consectetur, condimentum tortor eu, aliquam sem. Quisque ornare suscipit
                 metus, vel molestie dolor consequat id. Nulla facilisi.

@@ -13,9 +13,15 @@
             <h1>Contact</h1>
         </header>
         <article>
-            <p>
-                Kontaktskjema...
-            </p>
+            <form action="nyi.php" method="POST" class="contact-form" id="contact_form">
+                <input type="email" name="email" placeholder="Your email adress"id="contact_email">
+                <div class="form-names">
+                    <input type="text" name="firstname" placeholder="Firstname" id="contact_firstname">
+                    <input type="text" name="lastname" placeholder="Lastname" id="contact_lastname">
+                </div>
+                <textarea name="message"  cols="30" rows="10" placeholder="Your message" id="contact_message"></textarea>
+                <input type="submit" value="SEND">
+            </form>
         </article>
         <aside>
             <img src="img/annie-spratt-42459.jpg" alt="About us">
