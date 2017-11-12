@@ -278,7 +278,7 @@ main aside img {
     text-decoration: none;
     background: white;
     padding: 5px;
-    transition: background ease .2s;
+    transition: ease .2s;
 }
 
 .card_sml a:hover{
