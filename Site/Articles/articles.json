@@ -1,10 +1,16 @@
 {
     "articles": [
-        "flower.json",
-        "flower.json",
-        "flower.json",
-        "flower.json",
-        "flower.json",
-        "flower.json"
+        "solsikke.json",
+        "allium.json",
+        "roser.json",
+        "brennenesler.json",
+        "nellik.json",
+        "eple.json",
+        "nattogdag.json",
+        "ert.json",
+        "mint.json",
+        "fioler.json",
+        "lyng.json",
+        "kaktus.json"
     ]
 }

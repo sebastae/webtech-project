@@ -12,12 +12,16 @@
         <header>
             <h1>Gallery</h1>
         </header>
-        <div class="articles" data-fr-list="articles" data-fr-template="card"></div>
+                    <nav class="gallerySort">
+                        <button onclick="sortByName()">Name</button>
+                        <button onclick="sortByPrice()">Price</button>
+                    </nav>
+        <div class="articles" id="galart" data-fr-list="articles" data-fr-template="card"></div>
     </main>
     <footer class="main_footer">
         <p>&copy; SØTAA - Group 37, 2017</p>
     </footer>
     <script src="JS/jsonload.js"></script>
+    <script src="JS/sort.js"></script>
 </body>
-
 </html>
