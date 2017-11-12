@@ -10,12 +10,16 @@
             <img src="img/head_1920.jpg" class="head_bg_img" alt="" id="imgTag">
             <img src="img/logo_wa.svg" class="head_bg_logo" href="?pg=page_front" alt="Frøken">
             <div id="left" onclick="backward()">
-                </br>
-                &lt;
+                <div class="arrow_position">
+                    <div class="arrow_left_upper"></div>
+                    <div class="arrow_left_lower"></div>
+                </div>
             </div>
             <div id="right" onclick="forward()">
-                </br>
-                &gt;
+                <div class="arrow_position">
+                    <div class="arrow_right_upper"></div>
+                    <div class="arrow_right_lower"></div>
+                </div>
             </div>
             <a class="scroll_to_menu_button" href="#main_navbar">
                 <div class="arrow_left"></div>

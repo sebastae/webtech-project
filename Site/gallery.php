@@ -13,7 +13,7 @@
             <h1>Gallery</h1>
         </header>
                     <nav class="gallerySort">
-                        <p>Sort by: </p>
+                        <p><b>Sort by&nbsp;&nbsp;&nbsp;&nbsp;:</b></p>
                         <button onclick="sortByName()">Name</button>
                         <button onclick="sortByPrice()">Price</button>
                     </nav>
