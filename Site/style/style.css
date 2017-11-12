@@ -383,6 +383,7 @@ main aside img {
     z-index: 999;
     text-align: center;
     color: rgba(158, 158, 158, 0.5);
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
 }
 
 #left:hover, #right:hover {
@@ -398,5 +399,6 @@ main aside img {
     font-size: 1000%;
     z-index: 999;
     text-align: center;
-    color: rgba(158, 158, 158, 0.5);    
+    color: rgba(158, 158, 158, 0.5);
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;   
 }
