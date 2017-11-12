@@ -17,10 +17,24 @@ let imgTag = document.querySelector("#imgTag");
 let index = 0;
 let sekunder = 5000;
 
+function fadeOut(){
+    imgTag.style.transition = "opacity 1s linear 0s";
+    imgTag.style.opacity = 0;
+}
+
+function fadeIn(){
+    imgTag.style.transition = "opacity 1s linear 0s";
+    imgTag.style.opacity = 1;
+    CONSOLE.log("dasd");
+}
+
+
 //Changes the picture by changing the source of the <img>-tag
 //Makes sure the index also always points to an image
 function slide(){
+    fadeOut();
     imgTag.src = bilder[index];
+    fadeIn();
     index = (index+1)%(bilder.length);
 }
 
