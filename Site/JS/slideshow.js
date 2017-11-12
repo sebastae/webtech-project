@@ -13,20 +13,21 @@ const bilder = [
     "img/slideshow/slideshow4_1920.jpg"
 ];
 
+
 let imgTag = document.querySelector("#imgTag");
 let index = 0;
 let sekunder = 5000;
-let fadeObject = document.querySelector("#imgTag");
-fadeObject.style.transition = "opacity 0.2s";
-fadeObject.style.opacity = 1;
-console.log(fadeObject);
+
+//Adds fade transitions between slides be changing CSS properties
+imgTag.style.transition = "opacity 0.2s";
+imgTag.style.opacity = 1;
 
 function fadeOut(){
-    fadeObject.style.opacity = 0;
+    imgTag.style.opacity = 0;
 }
 
 function fadeIn(){
-    fadeObject.style.opacity = 1;
+    imgTag.style.opacity = 1;
 }
 
 
