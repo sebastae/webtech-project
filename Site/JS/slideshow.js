@@ -1,8 +1,16 @@
 const bilder = [
-    "img/annie-spratt-42459.jpg",
-    "img/erol-ahmed-80094.jpg",
-    "img/matthew-smith-5935.jpg",
-    "img/pexels-photo-612807.jpeg"
+    "img/slideshow/slideshow1_1920.jpg",
+    "img/slideshow/slideshow2_1920.jpg",
+    "img/slideshow/slideshow5_1920.jpg",
+    "img/slideshow/slideshow6_1920.jpg",
+    "img/slideshow/slideshow9_1920.jpg",
+    "img/slideshow/slideshow10_1920.jpg",
+    "img/slideshow/slideshow12_1920.jpg",
+    "img/slideshow/slideshow13_1920.jpg",
+    "img/slideshow/slideshow16_1920.jpg",
+    "img/slideshow/slideshow17_1920.jpg",
+    "img/slideshow/slideshow18_1920.jpg",
+    "img/slideshow/slideshow4_1920.jpg"
 ];
 
 let imgTag = document.querySelector("#imgTag");
@@ -26,7 +34,7 @@ function forward(){
 //One slide backwards, and slows down the interval
 function backward(){
     clearInterval(inter_vall);
-    sekunder = 10000;
+    sekunder = 20000;
     if (index == 0){
         index = (bilder.length-1);
     }
