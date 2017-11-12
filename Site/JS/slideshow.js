@@ -16,16 +16,17 @@ const bilder = [
 let imgTag = document.querySelector("#imgTag");
 let index = 0;
 let sekunder = 5000;
+let fadeObject = document.querySelector("#imgTag");
+fadeObject.style.transition = "opacity 0.2s";
+fadeObject.style.opacity = 1;
+console.log(fadeObject);
 
 function fadeOut(){
-    imgTag.style.transition = "opacity 1s linear 0s";
-    imgTag.style.opacity = 0;
+    fadeObject.style.opacity = 0;
 }
 
 function fadeIn(){
-    imgTag.style.transition = "opacity 1s linear 0s";
-    imgTag.style.opacity = 1;
-    CONSOLE.log("dasd");
+    fadeObject.style.opacity = 1;
 }
 
 
@@ -33,9 +34,11 @@ function fadeIn(){
 //Makes sure the index also always points to an image
 function slide(){
     fadeOut();
-    imgTag.src = bilder[index];
-    fadeIn();
-    index = (index+1)%(bilder.length);
+    setTimeout(function(){
+        fadeIn();
+        index = (index+1)%(bilder.length);
+        imgTag.src = bilder[index];
+    }, 200);
 }
 
 //One slide forward, and slows down the interval
@@ -43,6 +46,7 @@ function forward(){
     clearInterval(inter_vall);
     sekunder = 10000;
     slide();
+    console.log(index);
 }
 
 //One slide backwards, and slows down the interval
@@ -55,7 +59,12 @@ function backward(){
     else {
         index--;
     }
-    imgTag.src = bilder[index]; 
+    fadeOut();
+    setTimeout(function(){
+        imgTag.src = bilder[index];
+        fadeIn();
+    }, 200);
+    console.log(index);
 }
 
 //Saves images in an array so they won't be removed from RAM
