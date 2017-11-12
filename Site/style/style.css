@@ -373,10 +373,9 @@ main aside img {
 
 /* ------------------ slideshow -------------------- */
 
-#left {
+#left, #right {
     position: absolute;
     top: 0%;
-    left: 0%;
     width: 10%;
     height: 99%;
     font-size: 1000%;
@@ -388,17 +387,22 @@ main aside img {
 
 #left:hover, #right:hover {
     background-color: rgba(165, 165, 165, 0.055);
+    -webkit-animation: fadeint 1s linear forwards;
+    animation: fadein 1s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    50% { opacity: 1; }
+  }
+
+#left {
+    left: 0;
 }
 
 #right {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    width: 10%;
-    height: 99%;
-    font-size: 1000%;
-    z-index: 999;
-    text-align: center;
-    color: rgba(158, 158, 158, 0.5);
-    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;   
+    right: 0;  
 }

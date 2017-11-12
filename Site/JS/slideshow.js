@@ -13,15 +13,33 @@ const bilder = [
     "img/slideshow/slideshow4_1920.jpg"
 ];
 
+
 let imgTag = document.querySelector("#imgTag");
 let index = 0;
 let sekunder = 5000;
 
+//Adds fade transitions between slides be changing CSS properties
+imgTag.style.transition = "opacity 0.2s";
+imgTag.style.opacity = 1;
+
+function fadeOut(){
+    imgTag.style.opacity = 0;
+}
+
+function fadeIn(){
+    imgTag.style.opacity = 1;
+}
+
+
 //Changes the picture by changing the source of the <img>-tag
 //Makes sure the index also always points to an image
 function slide(){
-    imgTag.src = bilder[index];
-    index = (index+1)%(bilder.length);
+    fadeOut();
+    setTimeout(function(){
+        fadeIn();
+        index = (index+1)%(bilder.length);
+        imgTag.src = bilder[index];
+    }, 200);
 }
 
 //One slide forward, and slows down the interval
@@ -29,6 +47,7 @@ function forward(){
     clearInterval(inter_vall);
     sekunder = 10000;
     slide();
+    console.log(index);
 }
 
 //One slide backwards, and slows down the interval
@@ -41,7 +60,12 @@ function backward(){
     else {
         index--;
     }
-    imgTag.src = bilder[index]; 
+    fadeOut();
+    setTimeout(function(){
+        imgTag.src = bilder[index];
+        fadeIn();
+    }, 200);
+    console.log(index);
 }
 
 //Saves images in an array so they won't be removed from RAM
