@@ -253,6 +253,12 @@ main aside img {
     margin-top: -30px;
 }
 
+.gallerySort p {
+    display: inline-block;
+    font-size: 10pt;
+    color: #444;
+}
+
 .gallerySort button{
     background-color: rgb(255, 255, 255);
     border: none;
@@ -376,7 +382,7 @@ main aside img {
 #left, #right {
     position: absolute;
     top: 0%;
-    width: 10%;
+    width: 7%;
     height: 99%;
     font-size: 1000%;
     z-index: 999;
@@ -405,4 +411,53 @@ main aside img {
 
 #right {
     right: 0;  
+} 
+
+
+.arrow_position {
+    margin-top: 330%;
+    position: relative;
+}
+
+.arrow_left_upper, .arrow_left_lower, .arrow_right_upper, .arrow_right_lower {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin: 0px;
+    padding: 0px;
+}
+
+.arrow_left_upper {
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari */
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 17%;
+    top: 0px;
+}
+
+.arrow_left_lower {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+    position: absolute;
+    left: 17%;
+    top: 16px;
+}
+.arrow_right_lower {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+    position: absolute;
+    right: 17%;
+    top: 0px;
+}
+
+.arrow_right_upper {
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari */
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 17%;
+    top: 16px;
 }
