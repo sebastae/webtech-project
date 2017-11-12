@@ -259,6 +259,84 @@ main aside img {
     color: #fff;
 }
 
+.card_sml a{
+    color: #25CE13;
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+    transition: background ease .2s;
+}
+
+.card_sml a:hover{
+    background: #f1f1f1;
+}
+
+.loaded-article{
+    display: inline-block;
+}
+
+/* -------------------- contact form -------------- */
+
+.contact-form{
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.contact-form *{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13pt;
+
+}
+
+.contact-form input:first-child{
+    margin-top: 0;
+}
+
+.contact-form > *:not([type="submit"]){
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-form input:not([type="submit"]), .contact-form textarea{
+    padding: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.form-names input{
+    width: 48%;
+}
+
+.form-names input[name="lastname"]{
+    float: right;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"]{
+    height: 50px;
+}
+
+.contact-form input[type="submit"]{
+    float: right;
+    height: 30px;
+    width: 90px;
+    background: #25CE13;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.151);
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover{
+    background: rgb(34, 180, 18);
+}
+
+.contact-form input, .contact-form textarea{
+    border: 2px solid #aaa;
+}
+
+
 /* -------------------- footer -------------------- */
 
 .main_footer {
@@ -281,6 +359,3 @@ main aside img {
     color: #95989A; 
 }
 
-.loaded-article{
-    display: inline-block;
-}
