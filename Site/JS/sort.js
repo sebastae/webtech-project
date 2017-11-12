@@ -60,7 +60,7 @@ function sortByPrice() {
         else {
         let li = getAllCards()
         for (let i in li) {
-            loadSortJSON("./Articles/"+li[i].id+".json", function(response) {
+            loadSortJSON("../Articles/"+li[i].id+".json", function(response) {
                 let sortElement = JSON.parse(response);
                 li[i].price = sortElement.body.price; 
             }); 
