@@ -7,15 +7,15 @@
 
     <header class="head">
         <section class="head_bg">
-            <img src="img/head_1920.jpg" class="head_bg_img" alt="">
+            <img src="img/head_1920.jpg" class="head_bg_img" alt="" id="imgTag">
             <img src="img/logo_wa.svg" class="head_bg_logo" href="?pg=page_front" alt="Frøken">
             <div id="left" onclick="backward()">
                 </br>
-                <
+                &lt;
             </div>
             <div id="right" onclick="forward()">
                 </br>
-                >
+                &gt;
             </div>
             <a class="scroll_to_menu_button" href="#main_navbar">
                 <div class="arrow_left"></div>
@@ -34,6 +34,7 @@
         <p>&copy; SØTAA - Group 37, 2017</p>
     </footer>
     <script src="JS/jsonload.js"></script>
+    <script src="JS/slideshow.js"></script>
 </body>
 
 </html>
