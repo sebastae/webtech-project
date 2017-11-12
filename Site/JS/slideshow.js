@@ -39,7 +39,7 @@ function slide(){
         fadeIn();
         index = (index+1)%(bilder.length);
         imgTag.src = bilder[index];
-    }, 200);
+    }, 150);
 }
 
 //One slide forward, and slows down the interval
