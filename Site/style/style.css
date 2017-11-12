@@ -17,15 +17,13 @@ body {
     padding-bottom: 50px;
 }
 
-main {
-}
 
 h1 {
     text-transform: uppercase;
 }
 
 :hover {
-    transition: 0.15s;
+    transition: 0.15s ease-in-out;;
 }
 
 /* -------------------- Header -------------------- */
@@ -205,6 +203,11 @@ main aside img {
 .card_sml header img {
     width: 100%;
 }
+
+.card_sml article {
+    position: relative;
+}
+
 .card_sml h1 {
     text-align: left;
     font-weight: bold;
@@ -213,6 +216,12 @@ main aside img {
 
 .card_sml p {
     font-size: 11pt;
+}
+
+.card_sml_price {
+    position: absolute;
+    right: 10px;
+    top: -8px;
 }
 
 .card_sml article {
@@ -268,7 +277,8 @@ main aside img {
 }
 
 .card_sml a:hover{
-    background: #f1f1f1;
+    background-color: #25CE13;
+    color: #fff;
 }
 
 .loaded-article{
@@ -320,20 +330,22 @@ main aside img {
     float: right;
     height: 30px;
     width: 90px;
-    background: #25CE13;
-    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(170, 170, 170);
     border: none;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.116), inset 0px 0px 17px rgba(0, 0, 0, 0.034);
     cursor: pointer;
-    transition: background .2s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 .contact-form input[type="submit"]:hover{
-    background: rgb(34, 180, 18);
+    background: #25CE13;
+    color: white;
 }
 
 .contact-form input, .contact-form textarea{
-    border: 2px solid #aaa;
+    border: 1px solid #aaa;
+    
 }
 
 
