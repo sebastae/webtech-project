@@ -371,3 +371,32 @@ main aside img {
     color: #95989A; 
 }
 
+/* ------------------ slideshow -------------------- */
+
+#left {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 10%;
+    height: 99%;
+    font-size: 1000%;
+    z-index: 999;
+    text-align: center;
+    color: rgba(158, 158, 158, 0.5);
+}
+
+#left:hover, #right:hover {
+    background-color: rgba(165, 165, 165, 0.055);
+}
+
+#right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 10%;
+    height: 99%;
+    font-size: 1000%;
+    z-index: 999;
+    text-align: center;
+    color: rgba(158, 158, 158, 0.5);    
+}
