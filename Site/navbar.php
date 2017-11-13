@@ -5,7 +5,7 @@
             <a href="/" class="menu">Front</a>
         </li>
         <li>
-            <a href="gallery.php" class="menu">Gallery</a>
+            <a href="gallery.php" class="menu">Seeds</a>
         </li>
         <li>
             <a href="about.php" class="menu">About</a>

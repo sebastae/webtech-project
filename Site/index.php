@@ -8,7 +8,7 @@
     <header class="head">
         <section class="head_bg">
             <img src="img/head_1920.jpg" class="head_bg_img" alt="" id="imgTag">
-            <img src="img/logo_wa.svg" class="head_bg_logo" href="?pg=page_front" alt="Frøken">
+            <img src="img/logo_wa.svg" class="head_bg_logo" alt="Frøken">
             <div id="left" onclick="backward()">
                 <div class="arrow_position">
                     <div class="arrow_left_upper"></div>

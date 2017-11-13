@@ -209,6 +209,10 @@ main aside img {
     overflow: hidden;  
 }
 
+.card_sml header a {
+    padding: 0px;
+}
+
 .card_sml header img {
     width: 100%;
 }
