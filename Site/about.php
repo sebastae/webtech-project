@@ -23,12 +23,19 @@
                 We offer toured visits to our factory! Visit us to learn more about our products and our company. For scheduling a visit, contact us.
                 We are excited to show you and your business, school, kindergarden, or friends how the leading distributor of high quality seeds operate!
             </p>
+            <p>
+            Feel free to contact us and ask any question or other enquiry by phone, email or by using the contact page.
+            </p>
         </article>
         <aside class="aside_move">
             <img src="img/about_us.jpg" alt="About us">
             <p>
-                For more info about us, feel free to ask us any question by using the contact page.
-            </p>
+            For other information:
+            <br><br>
+            Mail: support@froken.com
+            <br><br>
+            Tlf: (+47) 123 45 678
+        </p>
         </aside>
     </main>
     <footer class="main_footer">
