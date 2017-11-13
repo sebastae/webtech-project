@@ -598,6 +598,10 @@ article.seed-article {
     .seed-article h1 {
         padding: 10px; 
     }
+
+    .main h4 {
+        margin-bottom: 50px;
+    }
     
 }
 
