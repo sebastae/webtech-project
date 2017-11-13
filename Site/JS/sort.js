@@ -1,6 +1,6 @@
 "use strict";
 
-var sortedBy = '';
+let sortedBy = '';
 
 // Collects all the cards in the gallery and, and saves the content in objects in a list,
 // while separating relevant information like ID and Price. 
@@ -94,57 +94,3 @@ function sortByPrice() {
     }
     
 }
-
-
-
-
-
-function sortByPriceV2() {
-    if (sortedBy === 'price') {
-        sortByReverse()
-    }
-        else {
-        let li = getAllCards()
-        for (let i in li) {
-            loadSortJSON("../Articles/"+li[i].id+".json", function(response) {
-                let sortElement = JSON.parse(response);
-                li[i].price = sortElement.body.price; 
-            }); 
-        }
-        sortByPricePartTwo(li)
-    }
-}   
-
-function sortByPricePartTwo(li) {
-    let sortedList = []
-    while (li.length > 0) {
-        let mem = -1;
-        let num = '';
-        let pri = 0;
-        for (let i in li) {
-            if (li[i].price > pri) {
-                num = li[i].id
-                pri = li[i].price
-                mem = i
-                
-            }
-        }
-        sortedList.push(li[mem])
-        li.splice(mem, 1);
-    } 
-    printAllCards(sortedList)
-    sortedBy = 'price'
-}
-
-function loadSortJSON(file, callback) {   
-        let sortAdd = new XMLHttpRequest();
-        sortAdd.overrideMimeType("application/json");
-        sortAdd.open('GET', file, false);
-        sortAdd.onreadystatechange = function () {
-              if (sortAdd.readyState == 4 && sortAdd.status == "200") {
-                callback(sortAdd.responseText);
-              }
-        };
-        sortAdd.send(null);  
-     }
-     
