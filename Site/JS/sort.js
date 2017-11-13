@@ -1,7 +1,9 @@
 "use strict";
 
-var srotedBy = '';
+var sortedBy = '';
 
+// Collects all the cards in the gallery and, and saves the content in objects in a list,
+// while separating relevant information like ID and Price. 
 function getAllCards() {
     let li = [];
     while (document.getElementById('galart').innerHTML !== '') {
@@ -20,19 +22,25 @@ function getAllCards() {
     return li
 }
 
+// Gets a list with objects and prints them to the gallery
 function printAllCards(li) {
     for (let i in li){
         document.getElementById('galart').insertAdjacentHTML('afterbegin', '<div id="'+li[i].id+'" class="loaded-article">'+li[i].content+'</div>')
     }
 }
 
+// Removes all the cards and prints them back in reverse order
 function sortByReverse() {
     let li = getAllCards()
     printAllCards(li)
 }
 
+// Uses getAllCards() to collect all the cards to a list with objects, including the relevant information.
+// Sorts the objects in the list by the ID of the objects
+// Changes the global variable "sortedBy" to "name", so if the cards already is sorted
+// alphabetically, it reverses the list.
 function sortByName() {
-    if (srotedBy === 'name') {
+    if (sortedBy === 'name') {
         sortByReverse()
     }
     else {
@@ -51,13 +59,16 @@ function sortByName() {
             li.splice(mem, 1);
         } 
         printAllCards(sortedList)
-        srotedBy = 'name'
+        sortedBy = 'name'
     }
 }
 
-
+// Uses getAllCards() to collect all the cards to a list with objects, including the relevant information.
+// Sorts the objects in the list by the Price of the objects
+// Changes the global variable "sortedBy" to "price", so if the cards already is sorted
+// price, it reverses the list.
 function sortByPrice() {
-    if (srotedBy === 'price') {
+    if (sortedBy === 'price') {
         sortByReverse()
     }
     else {
@@ -79,7 +90,7 @@ function sortByPrice() {
             li.splice(mem, 1);
         } 
         printAllCards(sortedList)
-        srotedBy = 'price'
+        sortedBy = 'price'
     }
     
 }
@@ -89,7 +100,7 @@ function sortByPrice() {
 
 
 function sortByPriceV2() {
-    if (srotedBy === 'price') {
+    if (sortedBy === 'price') {
         sortByReverse()
     }
         else {
@@ -122,7 +133,7 @@ function sortByPricePartTwo(li) {
         li.splice(mem, 1);
     } 
     printAllCards(sortedList)
-    srotedBy = 'price'
+    sortedBy = 'price'
 }
 
 function loadSortJSON(file, callback) {   
