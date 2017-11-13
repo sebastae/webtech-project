@@ -14,18 +14,13 @@
         </header>
         <article class="main_article">
             <p>
-                Maecenas dapibus ex lorem. Praesent condimentum a ligula id rutrum. Etiam consequat, ante et tincidunt sollicitudin, lectus
-                nunc pellentesque magna, viverra sagittis ipsum est at mi. Fusce facilisis consectetur porttitor. Fusce a
-                est vel diam lacinia porttitor. Nulla tincidunt interdum metus ac mattis. Vivamus a quam vulputate, tempus
-                elit id, volutpat tortor. Morbi tristique ac augue quis mollis. Quisque neque velit, pulvinar eget facilisis
-                at, luctus in urna. Duis sed euismod lorem, id bibendum purus. Nulla at tristique justo, eu varius nisi.
-                Pellentesque vehicula augue a maximus aliquam.
+                FRØKEN has been a Norwegian Trondheim-based distributor of high quality seeds since the early 1800s. 
+                Based on traditional values and methods, we strive to create the best seeds possible for ourselves, and our clients.
+                The secret behind our high quality lies in the care provided for the seeds, and there are of course some in the processing.
+                If you choose our product, you are guaranteed to get amongst the highest quality of seeds available, for your pleasure.
             </p>
             <p>
-                Mauris et maximus mi, id cursus velit. Nam non orci consectetur, condimentum tortor eu, aliquam sem. Quisque ornare suscipit
-                metus, vel molestie dolor consequat id. Nulla facilisi. Sed consectetur nibh vitae elit malesuada, at vehicula
-                mi lobortis. Aliquam viverra tellus a quam facilisis porttitor. Mauris tempor lacus purus, id tempus nisi
-                aliquet sit amet. Integer ultricies elementum pellentesque. Praesent blandit non magna non congue.
+                We offer visits to our factory! Visit us to learn more about our products and our company. 
             </p>
         </article>
         <aside class="aside_move">
