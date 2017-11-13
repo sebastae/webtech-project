@@ -14,7 +14,7 @@
         </header>
         <article class="main_article">
             <form action="nyi.php" method="POST" class="contact-form" id="contact_form">
-                <input type="email" name="email" placeholder="Your e-mail adress"id="contact_email">
+                <input type="email" name="email" placeholder="Your e-mail adress" id="contact_email">
                 <div class="form-names">
                     <input type="text" name="firstname" placeholder="Firstname" id="contact_firstname">
                     <input type="text" name="lastname" placeholder="Surname" id="contact_lastname">

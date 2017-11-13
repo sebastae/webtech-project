@@ -602,6 +602,10 @@ article.seed-article {
     .main h4 {
         margin-bottom: 50px;
     }
+
+    .scroll_to_menu_button {
+        display: none;
+    }
     
 }
 
