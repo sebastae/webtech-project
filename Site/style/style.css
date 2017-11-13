@@ -409,17 +409,7 @@ p#errormsg{
 
 #left:hover, #right:hover {
     background-color: rgba(165, 165, 165, 0.055);
-    -webkit-animation: fadeint 1s linear forwards;
-    animation: fadein 1s linear forwards;
 }
-
-@-webkit-keyframes fadeinout {
-    50% { opacity: 1; }
-  }
-  
-  @keyframes fadeinout {
-    50% { opacity: 1; }
-  }
 
 #left {
     left: 0;
