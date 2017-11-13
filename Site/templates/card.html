@@ -1,11 +1,11 @@
 <section class="card_sml">
     <header>
-        <img src="img/flower_test_600.jpg" alt="Flower Test">
+        <img src="{{body.img}}" alt="Image of flower">
     </header>
     <article>
-        <h1>{{body.title}}</h1>
+        <h1>{{body.titleshort}}</h1>
         <span title="Recommended retail price"><h4 class="card_sml_price">{{body.price}},-</h4></span>
-        <p>{{body.text}}</p>
+        <p>{{body.short}}</p>
     </article>
     <footer>
         <a href="/article.php#{{ head.name }}">Read More</a>

@@ -1,16 +1,13 @@
 {
     "articles": [
-        "solsikke.json",
-        "allium.json",
-        "roser.json",
-        "brennenesler.json",
-        "nellik.json",
-        "eple.json",
-        "nattogdag.json",
-        "ert.json",
-        "mint.json",
-        "fioler.json",
-        "lyng.json",
-        "kaktus.json"
+        "sunflower.json",
+        "sweetpeas.json",
+        "rhododendron.json",
+        "chrysanthemum.json",
+        "chives.json",
+        "rose.json",
+        "viola.json",
+        "oregano.json",
+        "artichoke.json"
     ]
 }

@@ -20,21 +20,27 @@
                     <input type="text" name="lastname" placeholder="Surname" id="contact_lastname">
                 </div>
                 <textarea name="message"  cols="30" rows="10" placeholder="Your message" id="contact_message"></textarea>
-                <input type="submit" value="SEND">
+                <div class="bottom">
+                    <p id="errormsg"></p>
+                    <input type="submit" value="SEND" id="btn">
+                </div>
             </form>
         </article>
         <aside>
             <img src="img/annie-spratt-42459.jpg" alt="About us">
             <p>
-                Mauris et maximus mi, id cursus velit. Nam non orci consectetur, condimentum tortor eu, aliquam sem. Quisque ornare suscipit
-                metus, vel molestie dolor consequat id. Nulla facilisi.
+                Other contact information:
+                <br><br>
+                Mail: support@froken.com
+                <br><br>
+                Tlf: (+47) 123 45 678
             </p>
         </aside>
     </main>
     <footer class="main_footer">
         <p>&copy; SØTAA - Group 37, 2017</p>
     </footer>
-    <script src="JS/jsonload.js"></script>
+    <script src="JS/checkForm.js"></script>
 </body>
 
 </html>

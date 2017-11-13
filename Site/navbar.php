@@ -1,4 +1,5 @@
 <nav class="main_navbar" id="main_navbar">
+    <a class="navbar-logo" href="/"><img src="img/logo_nav.svg" alt="Logo" class="navbar-logo"></a>
     <ul>
         <li>
             <a href="/" class="menu">Front</a>
