@@ -154,6 +154,10 @@ for (let a of article_containers){
     });
 }
 
+function goBack() {
+    window.history.back();
+}
+
 // FOOTNOTES
 // 
 // [1]:
