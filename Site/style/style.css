@@ -465,6 +465,17 @@ p#errormsg{
 /* ----------------------- articles -----------------*/
 article.seed-article {
     width: 100%;
+    /* width: 800px; */
+    margin: 10px 200px 50px auto;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.151);
+}
+
+.main {
+    padding:  0px 6% 30px;
+}
+
+.seed-article h1 {
+    padding: 23px;
 }
 
 .seed-article header {
@@ -491,6 +502,7 @@ article.seed-article {
 }
 
 
+/* ----------------------- Responsive components -----------------*/
 
 @media only screen
     and (min-width : 645px)
@@ -502,6 +514,10 @@ article.seed-article {
     
     .main_footer {
         text-align: center;
+    }
+
+    .seed-article header {
+        height: 260px;
     }
 }
 
@@ -553,6 +569,13 @@ article.seed-article {
         padding: 0px 0px;
     }
 
+    .seed-article header {
+        height: 180px;
+    }
+
+    .seed-article h1 {
+        padding: 10px; 
+    }
     
 }
 
