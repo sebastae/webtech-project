@@ -20,14 +20,14 @@
                 If you choose our product, you are guaranteed to get amongst the highest quality of seeds available, for your pleasure.
             </p>
             <p>
-                We offer visits to our factory! Visit us to learn more about our products and our company. 
+                We offer toured visits to our factory! Visit us to learn more about our products and our company. For scheduling a visit, contact us.
+                We are excited to show you and your business, school, kindergarden, or friends how the leading distributor of high quality seeds operate!
             </p>
         </article>
         <aside class="aside_move">
             <img src="img/about_us.jpg" alt="About us">
             <p>
-                Mauris et maximus mi, id cursus velit. Nam non orci consectetur, condimentum tortor eu, aliquam sem. Quisque ornare suscipit
-                metus, vel molestie dolor consequat id. Nulla facilisi.
+                For more info about us, feel free to ask us any question by using the contact page.
             </p>
         </aside>
     </main>
