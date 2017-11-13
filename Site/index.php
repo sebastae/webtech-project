@@ -27,6 +27,7 @@
             </a>
         </section>
         <?php include 'navbar.php'; ?>
+        <script src="JS/purgeLogo.js"></script>
     </header>
     <main class="main_section">
         <header>

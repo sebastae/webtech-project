@@ -16,44 +16,23 @@ const bilder = [
 
 let imgTag = document.querySelector("#imgTag");
 let index = 0;
-let sekunder = 5000;
-
-//Adds fade transitions between slides be changing CSS properties
-imgTag.style.transition = "opacity 0.2s";
-imgTag.style.opacity = 1;
-
-function fadeOut(){
-    imgTag.style.opacity = 0;
-}
-
-function fadeIn(){
-    imgTag.style.opacity = 1;
-}
-
 
 //Changes the picture by changing the source of the <img>-tag
 //Makes sure the index also always points to an image
 function slide(){
-    fadeOut();
-    setTimeout(function(){
-        fadeIn();
         index = (index+1)%(bilder.length);
         imgTag.src = bilder[index];
-    }, 150);
 }
 
 //One slide forward, and slows down the interval
 function forward(){
     clearInterval(inter_vall);
-    sekunder = 10000;
     slide();
-    console.log(index);
 }
 
 //One slide backwards, and slows down the interval
 function backward(){
     clearInterval(inter_vall);
-    sekunder = 20000;
     if (index == 0){
         index = (bilder.length-1);
     }
@@ -65,7 +44,6 @@ function backward(){
         imgTag.src = bilder[index];
         fadeIn();
     }, 200);
-    console.log(index);
 }
 
 //Saves images in an array so they won't be removed from RAM
@@ -80,4 +58,4 @@ function preload(bilder) {
 
 //Runs the preload function and creates an interval varable, to easily create intervals in the future.
 preload(bilder);
-let inter_vall = setInterval(slide,sekunder);
+let inter_vall = setInterval(slide,5000);
