@@ -12,7 +12,7 @@
         <header>
             <h1>Contact</h1>
         </header>
-        <article>
+        <article class="main_article">
             <form action="nyi.php" method="POST" class="contact-form" id="contact_form">
                 <input type="email" name="email" placeholder="Your e-mail adress"id="contact_email">
                 <div class="form-names">
@@ -26,7 +26,7 @@
                 </div>
             </form>
         </article>
-        <aside>
+        <aside class="aside_move">
             <img src="img/annie-spratt-42459.jpg" alt="About us">
             <p>
                 Other contact information:
