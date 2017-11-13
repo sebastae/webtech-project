@@ -12,7 +12,7 @@
         <header>
             <h1>About us</h1>
         </header>
-        <article>
+        <article class="main_article">
             <p>
                 Maecenas dapibus ex lorem. Praesent condimentum a ligula id rutrum. Etiam consequat, ante et tincidunt sollicitudin, lectus
                 nunc pellentesque magna, viverra sagittis ipsum est at mi. Fusce facilisis consectetur porttitor. Fusce a
@@ -28,7 +28,7 @@
                 aliquet sit amet. Integer ultricies elementum pellentesque. Praesent blandit non magna non congue.
             </p>
         </article>
-        <aside>
+        <aside class="aside_move">
             <img src="img/matthew-smith-5935.jpg" alt="About us">
             <p>
                 Mauris et maximus mi, id cursus velit. Nam non orci consectetur, condimentum tortor eu, aliquam sem. Quisque ornare suscipit
