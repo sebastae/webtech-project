@@ -473,24 +473,23 @@ p#errormsg{
 }
 
 /* ----------------------- articles -----------------*/
-
-article.seed-article{
-width: 100%;
+article.seed-article {
+    width: 100%;
 }
 
-.seed-article header{
-padding: 0;
-width: 100%;
-height: 400px;
-overflow: hidden;
+.seed-article header {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
 }
 
-.seed-article img{
-width: 100%;
-
+.seed-article img {
+    width: 100%;
 }
 
-.seed-article h2{
-margin-bottom: 10px;
-
+.seed-article h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
