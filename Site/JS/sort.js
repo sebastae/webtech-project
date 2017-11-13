@@ -6,11 +6,14 @@ function getAllCards() {
     let li = [];
     while (document.getElementById('galart').innerHTML !== '') {
         let memID = document.querySelector('.loaded-article').id
+        let memPrice = document.querySelector('.card_sml_price').innerHTML
+        memPrice = parseInt(memPrice)
         let memContent = document.getElementById('galart').firstChild.innerHTML
         document.getElementById('galart').removeChild(document.getElementById(memID))
         let obj = {
             id: memID,
-            content: memContent
+            content: memContent,
+            price: memPrice
         }
         li.push(obj)
     }
@@ -54,6 +57,38 @@ function sortByName() {
 
 
 function sortByPrice() {
+    if (srotedBy === 'price') {
+        sortByReverse()
+    }
+    else {
+        let li = getAllCards()
+        let sortedList = []
+        while (li.length > 0) {
+            let mem = -1;
+            let num = '';
+            let pri = 0;
+            for (let i in li) {
+                if (li[i].price > pri) {
+                    num = li[i].id
+                    pri = li[i].price
+                    mem = i
+                    
+                }
+            }
+            sortedList.push(li[mem])
+            li.splice(mem, 1);
+        } 
+        printAllCards(sortedList)
+        srotedBy = 'price'
+    }
+    
+}
+
+
+
+
+
+function sortByPriceV2() {
     if (srotedBy === 'price') {
         sortByReverse()
     }
