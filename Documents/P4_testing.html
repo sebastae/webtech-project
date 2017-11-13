@@ -1,0 +1,192 @@
+<html>
+        <head>
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+            <title>
+                P4 Project Testing
+            </title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+            <div class="wrapper">
+                <header>
+                    <h1>
+                        P4 - Project Testing
+                    </h1>
+                    <h8>
+                        Sebastian Ellefsen, Øystein Bjørkeng Haugen, Toralf Tokheim, Andreas Langnes and Adrian Sand - <date>13.11.2017</date>
+                    </h8>
+                </header>
+    
+                <section class="card border-side">
+                    <header>
+                        <h3>
+                            Administrative details
+                        </h3>
+                    </header>
+                    <div class="content">
+                      <ul class="important">
+                          <li><b>Client name:</b> Frøken</li>
+                          <li><b>Website Name:</b> Frøken</li>
+                          <li><b>Contact person:</b> Fictional</li>
+                          <li><b>Type of company:</b> Seed distributor</li>
+                      </ul>
+                    </div>
+                </section>
+    
+               <section class="card border-side">
+                    <header>
+                        <h3>
+                            Testing document
+                        </h3>
+                    </header>
+                    <div class="content">
+                        <p>
+                            <a href="https://goo.gl/forms/0vii3wq91Es0K87h1">Our questionnaire</a> was made relatively short so that people were more 
+                            inclined to answer.
+                            <br>
+                            In the questionnaire we focused on three main points, namely:
+                            <ul>
+                                <li>Ease of use</li>
+                                <li>Design</li>
+                                <li>Functionality and load-time</li>
+                            </ul>
+                            <br>
+                            We also asked what device our testers connected from.
+                        </p>
+                    </div>
+               </section>
+
+               <section class="card border-side">
+                   <header>
+                       <h3>
+                           Tester audience
+                       </h3>
+                   </header>
+                   <div class="content">
+                        <p>
+                            Unfortunately, due to our lack of time, we could not really reach out to the intended audience and such all our testers were fellow students.
+                            We also tried to get people like Sebastians mother, who is both interested in gardening and not very tech savvy, to test, but none of them had the time to do so.
+                            <br><br>
+                            We also had one live-tester, whom we observed whilst using our site.
+                        </p>
+                   </div>
+               </section>
+
+               <section class="card border-side">
+                   <header>
+                       <h3>
+                        Testing platforms
+                       </h3>
+                   </header>
+                   <div class="contant">
+                       <p>
+                            Out of our external testers, 10% of them tested from mobile, while 90% tested on a PC. We have also tested the site in following browsers:
+                            <ul>
+                                <li>Google Chrome</li>
+                                <li>Firefox</li>
+                                <li>Opera</li>
+                                <li>Safari</li>
+                                <li>Microsoft Edge</li>
+                            </ul>
+                       </p>
+                   </div>
+               </section>
+
+               <section class="card border-side">
+                   <header>
+                       <h3>
+                           Feedback summary
+                       </h3>
+                   </header>
+                   <div class="content">
+                        <h4>
+                            Navigation
+                        </h4>
+                        <p>
+                            When it comes to navigation most testers have said that they very easily found their way around the site, and only 2 testers gave a score of
+                            3 (out of 5) on ease of access.
+                        </p>
+                        <h4>
+                            Design
+                        </h4>
+                        <p>
+                            All testers that have answered about design have expressed that they like our design, with some keywords:
+                            <ul>
+                                <li>Pretty</li>
+                                <li>Clean</li>
+                                <li>Modern and minimalistic</li>
+                            </ul>
+                            Despite all the positive feedback, one user also said that (s)he didn't think the design fit the content.
+                            <br><br>
+                            Some testers have also said that they think the design is generic. We have also been alerted to the problem that the design very easily can
+                            give the impression that it is a photography site, with comments like "too pretty pictures".
+                        </p>
+
+                        <h4>
+                            Functionality
+                        </h4>
+                        <p>
+                            We asked the testers to give the site a score on functionality on the scale <b>"Terrible", "Bad", "OK", "Good", "Superb!"</b>, that lead to this result:
+                            <ul>
+                                <li><b>OK:</b> 10%</li>
+                                <li><b>Good:</b> 60%</li>
+                                <li><b>Superb:</b> 30%</li>
+                            </ul>
+                            One user also answered that the side did <b>not</b> act like (s)he expected.
+                            <br><br>
+                            When it comes to speed, the testers rated the page on a scale from 1 to 5. The answers from this test showed that <b>40%</b> of the testers felt that the
+                            site loaded very quickly (score 5), while the rest gave the site a score of 4.
+                            <br><br>
+                            Some testers expressed concern that some links linked to "http://folk.ntnu.no", this was due to a quirk with the VM and has been adressed.
+                            <br>
+                            A fatal flaw that was discovered during testing is that the JSON loading does not work on Microsoft Edge and Internet Explorer.
+                        </p>
+                        <p>
+                            Lastly we have gotten some feedback saying that the site not does a good enough job at showing that it is about seeds.
+                        </p>
+
+                   </div>
+               </section>
+
+               <section class="card border-side">
+                   <header>
+                       <h3>
+                           Our response
+                       </h3>
+                   </header>
+                   <div class="content">
+                       <p>
+                           Much of the feedback we have gotten is about the fact that the site looks like a photography site. We have tried to fix this by adding a slogan to the
+                           logo, and changing the "Gallery" in the navbar to "Seeds".
+                           <br><br>
+                           The fact that the site doesn't work on Edge and IE should be an easy fix in the javascript file by using a different technique other than XHR if the browser is IE or Edge.
+                           <br><br>
+                           The fact that many responses was about design related issues, adressing these issues would require us to go over the whole principle of design again and see if we could make
+                           it easier to use.
+                       </p>
+                   </div>
+               </section>
+
+               <section class="card">
+                   <header>
+                       <h3>
+                           Self reflection
+                       </h3>
+                   </header>
+                   <div class="content">
+                       <p>
+                           We feel like we have learned a lot during this project, both about programming and about working in a team. We have learned the hard way that this is a type
+                           of project you can't do last minute (what is sleep?).
+                           <br><br>
+                           We would especially point out what we have learned about learning from others; this project has been a great resource for learning from eachother. We all have different
+                           skills that we are good at, and I think all of us can learn from eachother. I think that this is something that is important to remember in later projects.
+                           We have also learned the importance of planning. The fact that we had decided on a design and what functions we wanted made the coding process so much easier.
+                       </p>
+                   </div>
+               </section>
+    
+            </div>
+        </body>
+    </html>
+    
