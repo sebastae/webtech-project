@@ -39,11 +39,7 @@ function backward(){
     else {
         index--;
     }
-    fadeOut();
-    setTimeout(function(){
-        imgTag.src = bilder[index];
-        fadeIn();
-    }, 200);
+    imgTag.src = bilder[index];
 }
 
 //Saves images in an array so they won't be removed from RAM
