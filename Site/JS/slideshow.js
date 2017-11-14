@@ -24,13 +24,13 @@ function slide(){
         imgTag.src = bilder[index];
 }
 
-//One slide forward, and slows down the interval
+//One slide forward
 function forward(){
     clearInterval(inter_vall);
     slide();
 }
 
-//One slide backwards, and slows down the interval
+//One slide backwards
 function backward(){
     clearInterval(inter_vall);
     if (index == 0){
