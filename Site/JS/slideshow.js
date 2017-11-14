@@ -1,15 +1,8 @@
 const bilder = [
     "img/slideshow/slideshow1_1920.jpg",
-    "img/slideshow/slideshow2_1920.jpg",
     "img/slideshow/slideshow5_1920.jpg",
     "img/slideshow/slideshow6_1920.jpg",
-    "img/slideshow/slideshow9_1920.jpg",
-    "img/slideshow/slideshow10_1920.jpg",
-    "img/slideshow/slideshow12_1920.jpg",
-    "img/slideshow/slideshow13_1920.jpg",
     "img/slideshow/slideshow16_1920.jpg",
-    "img/slideshow/slideshow17_1920.jpg",
-    "img/slideshow/slideshow18_1920.jpg",
     "img/slideshow/slideshow4_1920.jpg"
 ];
 
