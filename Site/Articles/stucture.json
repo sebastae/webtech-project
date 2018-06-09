@@ -1,0 +1,13 @@
+{
+    "head":{
+        "name":""
+    },
+    "body":{
+        "title":"",
+        "titleshort":"",
+        "img":"",
+        "short":"",
+        "text":"",
+        "price":0
+    }
+}
